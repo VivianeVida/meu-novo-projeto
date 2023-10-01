@@ -5,35 +5,35 @@
     <!-- Definindo o nome do autor da página -->
     <meta nome="author" content="Viviane Sousa">
     <!-- Definindo a descrição da página -->
-    <meta nome="description" content="Aula sobre tabelas para o curso de HTML5 e CSS3 - Potência Feminina.">
-    <title>Trabalhando com tabelas</title>
+    <meta nome="description" content="Aula sobre formulários para o curso de HTML5 e CSS3 - Potência Feminina.">
+    <title>Trabalhando com formulários</title>
 </head>
 <body>
-    <h2>Trabalhando com tabelas</h2>
-    <table>
-        <!-- Definindo o título da tabela -->
-        <caption>Datas de aniversários</caption>
-        <tr>
-            <!-- Definindo as colunas da tabela -->
-            <td>Nome</td>
-            <td>Idade</td>
-            <td>Data</td>
-        </tr>
-        <tr>
-            <!-- Início da primeira linha de dados -->
-            <td>Maria</td>
-            <td>25</td>
-            <td>15/12</td>
-            <!-- Fim da primeira linha de dados -->
-        </tr>
-        <tr>
-            <!-- Início da segunda linha de dados -->
-            <td>José</td>
-            <td>46</td>
-            <td>05/01</td>
-            <!-- Fim da segunda linha de dados -->
-        </tr>
-    </table>
+    <h2>Trabalhando com formulários</h2>
+    <!-- Início do formulário -->
+    <form> 
+        <div>
+            <!-- Rótulo e campo de entrada para o nome -->
+            <label for="nome">Nome:</label> 
+            <input type="text" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <!-- Rótulo e campo de entrada para o e-mail -->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+        </div>
+        <div>
+            <!-- Rótulo e área de texto para a mensagem -->
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <div>
+            <!-- Botão de envio do formulário -->
+            <button type="submit">Enviar mensagem</button> 
+        </div>
+    </form>
+    <!-- Fim do formulário -->
 </body>
 </html>
+
 
