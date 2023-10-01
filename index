@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <!-- Definindo o nome do autor da página -->
+    <meta nome="author" content="Viviane Sousa">
+    <!-- Definindo a descrição da página -->
+    <meta nome="description" content="Aula sobre tabelas para o curso de HTML5 e CSS3 - Potência Feminina.">
+    <title>Trabalhando com tabelas</title>
+</head>
+<body>
+    <h2>Trabalhando com tabelas</h2>
+    <table>
+        <!-- Definindo o título da tabela -->
+        <caption>Datas de aniversários</caption>
+        <tr>
+            <!-- Definindo as colunas da tabela -->
+            <td>Nome</td>
+            <td>Idade</td>
+            <td>Data</td>
+        </tr>
+        <tr>
+            <!-- Início da primeira linha de dados -->
+            <td>Maria</td>
+            <td>46</td>
+            <td>15/12</td>
+            <!-- Fim da primeira linha de dados -->
+        </tr>
+        <tr>
+            <!-- Início da segunda linha de dados -->
+            <td>José</td>
+            <td>46</td>
+            <td>05/01</td>
+            <!-- Fim da segunda linha de dados -->
+        </tr>
+    </table>
+</body>
+</html>
+
